@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+
+<html>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<head>
+    <title>prototype web gaya belajar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3>Isilah pernyataan-pernyataan berikut</h3>
+
+        <div class="questions visual">
+            <p>pernyataan visual</p>
+            <div class="choose">
+                <p>Tidak Setuju</p>
+                <button class="#1 off" onclick="jawaban(this)" value="0"></button>
+                <button class="#1 off" onclick="jawaban(this)" value="1"></button>
+                <button class="#1 off" onclick="jawaban(this)" value="2"></button>
+                <p>Setuju</p>
+            </div>
+        </div>
+
+        <div class="questions visual">
+            <p>pernyataan visual</p>
+            <div class="choose">
+                <p>Tidak Setuju</p>
+                <button class="#2 off" onclick="jawaban(this)" value="0"></button>
+                <button class="#2 off" onclick="jawaban(this)" value="1"></button>
+                <button class="#2 off" onclick="jawaban(this)" value="2"></button>
+                <p>Setuju</p>
+            </div>
+        </div>
+
+        <div class="questions visual">
+            <p>pernyataan visual</p>
+            <div class="choose">
+                <p>Tidak Setuju</p>
+                <button class="#3 off" onclick="jawaban(this)" value="0"></button>
+                <button class="#3 off" onclick="jawaban(this)" value="1"></button>
+                <button class="#3 off" onclick="jawaban(this)" value="2"></button>
+                <p>Setuju</p>
+            </div>
+        </div>
+
+        <div class="questions aural">
+            <p>pernyataan aural</p>
+            <div class="choose">
+                <p>Tidak Setuju</p>
+                <button class="#4 off" onclick="jawaban(this)" value="0"></button>
+                <button class="#4 off" onclick="jawaban(this)" value="1"></button>
+                <button class="#4 off" onclick="jawaban(this)" value="2"></button>
+                <p>Setuju</p>
+            </div>
+        </div>
+
+        <div class="questions aural">
+            <p>pernyataan aural</p>
+            <div class="choose">
+                <p>Tidak Setuju</p>
+                <button class="#5 off" onclick="jawaban(this)" value="0"></button>
+                <button class="#5 off" onclick="jawaban(this)" value="1"></button>
+                <button class="#5 off" onclick="jawaban(this)" value="2"></button>
+                <p>Setuju</p>
+            </div>
+        </div>
+
+        <div class="questions aural">
+            <p>pernyataan aural</p>
+            <div class="choose">
+                <p>Tidak Setuju</p>
+                <button class="#6 off" onclick="jawaban(this)" value="0"></button>
+                <button class="#6 off" onclick="jawaban(this)" value="1"></button>
+                <button class="#6 off" onclick="jawaban(this)" value="2"></button>
+                <p>Setuju</p>
+            </div>
+        </div>
+
+        <div class="questions social">
+            <p>pernyataan social</p>
+            <div class="choose">
+                <p>Tidak Setuju</p>
+                <button class="#7 off" onclick="jawaban(this)" value="0"></button>
+                <button class="#7 off" onclick="jawaban(this)" value="1"></button>
+                <button class="#7 off" onclick="jawaban(this)" value="2"></button>
+                <p>Setuju</p>
+            </div>
+        </div>
+
+        <div class="questions social">
+            <p>pernyataan social</p>
+            <div class="choose">
+                <p>Tidak Setuju</p>
+                <button class="#8 off" onclick="jawaban(this)" value="0"></button>
+                <button class="#8 off" onclick="jawaban(this)" value="1"></button>
+                <button class="#8 off" onclick="jawaban(this)" value="2"></button>
+                <p>Setuju</p>
+            </div>
+        </div>
+
+        <div class="questions social">
+            <p>pernyataan social</p>
+            <div class="choose">
+                <p>Tidak Setuju</p>
+                <button class="#9 off" onclick="jawaban(this)" value="0"></button>
+                <button class="#9 off" onclick="jawaban(this)" value="1"></button>
+                <button class="#9 off" onclick="jawaban(this)" value="2"></button>
+                <p>Setuju</p>
+            </div>
+        </div>
+
+        <div class="questions physical">
+            <p>pernyataan physical</p>
+            <div class="choose">
+                <p>Tidak Setuju</p>
+                <button class="#10 off" onclick="jawaban(this)" value="0"></button>
+                <button class="#10 off" onclick="jawaban(this)" value="1"></button>
+                <button class="#10 off" onclick="jawaban(this)" value="2"></button>
+                <p>Setuju</p>
+            </div>
+        </div>
+
+        <div class="questions physical">
+            <p>pernyataan physical</p>
+            <div class="choose">
+                <p>Tidak Setuju</p>
+                <button class="#11 off" onclick="jawaban(this)" value="0"></button>
+                <button class="#11 off" onclick="jawaban(this)" value="1"></button>
+                <button class="#11 off" onclick="jawaban(this)" value="2"></button>
+                <p>Setuju</p>
+            </div>
+        </div>
+
+        <div class="questions physical">
+            <p>pernyataan physical</p>
+            <div class="choose">
+                <p>Tidak Setuju</p>
+                <button class="#12 off" onclick="jawaban(this)" value="0"></button>
+                <button class="#12 off" onclick="jawaban(this)" value="1"></button>
+                <button class="#12 off" onclick="jawaban(this)" value="2"></button>
+                <p>Setuju</p>
+            </div>
+        </div>
+
+        <div class="questions verbal">
+            <p>pernyataan verbal</p>
+            <div class="choose">
+                <p>Tidak Setuju</p>
+                <button class="#13 off" onclick="jawaban(this)" value="0"></button>
+                <button class="#13 off" onclick="jawaban(this)" value="1"></button>
+                <button class="#13 off" onclick="jawaban(this)" value="2"></button>
+                <p>Setuju</p>
+            </div>
+        </div>
+
+        <div class="questions verbal">
+            <p>pernyataan verbal</p>
+            <div class="choose">
+                <p>Tidak Setuju</p>
+                <button class="#14 off" onclick="jawaban(this)" value="0"></button>
+                <button class="#14 off" onclick="jawaban(this)" value="1"></button>
+                <button class="#14 off" onclick="jawaban(this)" value="2"></button>
+                <p>Setuju</p>
+            </div>
+        </div>
+
+        <div class="questions verbal">
+            <p>pernyataan verbal</p>
+            <div class="choose">
+                <p>Tidak Setuju</p>
+                <button class="#15 off" onclick="jawaban(this)" value="0"></button>
+                <button class="#15 off" onclick="jawaban(this)" value="1"></button>
+                <button class="#15 off" onclick="jawaban(this)" value="2"></button>
+                <p>Setuju</p>
+            </div>
+        </div>
+
+        <div class="questions solitary">
+            <p>pernyataan solitary</p>
+            <div class="choose">
+                <p>Tidak Setuju</p>
+                <button class="#16 off" onclick="jawaban(this)" value="0"></button>
+                <button class="#16 off" onclick="jawaban(this)" value="1"></button>
+                <button class="#16 off" onclick="jawaban(this)" value="2"></button>
+                <p>Setuju</p>
+            </div>
+        </div>
+
+        <div class="questions solitary">
+            <p>pernyataan solitary</p>
+            <div class="choose">
+                <p>Tidak Setuju</p>
+                <button class="#17 off" onclick="jawaban(this)" value="0"></button>
+                <button class="#17 off" onclick="jawaban(this)" value="1"></button>
+                <button class="#17 off" onclick="jawaban(this)" value="2"></button>
+                <p>Setuju</p>
+            </div>
+        </div>
+
+        <div class="questions solitary">
+            <p>pernyataan solitary</p>
+            <div class="choose">
+                <p>Tidak Setuju</p>
+                <button class="#18 off" onclick="jawaban(this)" value="0"></button>
+                <button class="#18 off" onclick="jawaban(this)" value="1"></button>
+                <button class="#18 off" onclick="jawaban(this)" value="2"></button>
+                <p>Setuju</p>
+            </div>
+        </div>
+
+        <div class="questions logical">
+            <p>pernyataan logical</p>
+            <div class="choose">
+                <p>Tidak Setuju</p>
+                <button class="#19 off" onclick="jawaban(this)" value="0"></button>
+                <button class="#19 off" onclick="jawaban(this)" value="1"></button>
+                <button class="#19 off" onclick="jawaban(this)" value="2"></button>
+                <p>Setuju</p>
+            </div>
+        </div>
+
+        <div class="questions logical">
+            <p>pernyataan logical</p>
+            <div class="choose">
+                <p>Tidak Setuju</p>
+                <button class="#20 off" onclick="jawaban(this)" value="0"></button>
+                <button class="#20 off" onclick="jawaban(this)" value="1"></button>
+                <button class="#20 off" onclick="jawaban(this)" value="2"></button>
+                <p>Setuju</p>
+            </div>
+        </div>
+
+        <div class="questions logical">
+            <p>pernyataan logical</p>
+            <div class="choose">
+                <p>Tidak Setuju</p>
+                <button class="#21 off" onclick="jawaban(this)" value="0"></button>
+                <button class="#21 off" onclick="jawaban(this)" value="1"></button>
+                <button class="#21 off" onclick="jawaban(this)" value="2"></button>
+                <p>Setuju</p>
+            </div>
+        </div>
+
+        <button id="submit" onclick="submit()">submit</button>
+
+        <div id="score">
+            <!--learning styles-->
+        </div>
+    
+        <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+        <button id="refresh" onclick="refresh()">Start Over</button>
+
+        
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

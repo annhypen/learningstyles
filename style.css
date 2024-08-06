@@ -1,0 +1,91 @@
+p{
+    font-size: 10px;
+}
+
+input{
+    background-color: white;
+}
+
+button{
+    background-color: white;
+}
+
+
+.questions{
+    text-align: center;
+    padding: 8px;
+    border: solid 2px black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.choose{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.choose > p{
+    width: 60px;
+}
+
+.choose :nth-child(1){
+    text-align: right;
+    margin-right: 8px;
+}
+
+.choose :nth-child(5){
+    text-align: left;
+}
+
+.choose > input{
+    margin-right: 8px;
+    border-radius: 50%;
+    border: solid 1px black;
+    width: 20px;
+    height: 20px;
+}
+
+.choose > button{
+    margin-right: 8px;
+    border-radius: 50%;
+    border: solid 1px black;
+    width: 20px;
+    height: 20px;
+}
+
+.on{
+    background-color: grey;
+}
+
+#peringatan{
+    display: none;
+}
+
+#myChart, #refresh {
+    display: none;
+    margin:32px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#score{
+    margin: 16px;
+    text-align: center;
+}
+
+#score > p{
+    margin: 4px;
+    font-size: 15px;
+    font-weight: 600;
+}
